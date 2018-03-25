@@ -1,0 +1,43 @@
+#red-square {
+	width: 200px;
+	height: 200px;
+  border: 7px solid red;
+
+
+}
+
+#red-circle {
+	width: 100px;
+	height: 100px;
+  border: 7px solid red;
+	border-radius: 50%;
+	position:fixed;
+
+
+}
+
+#blue-square {
+	width: 200px;
+	height: 200px;
+  border: 7px solid blue;
+
+
+}
+
+#blue-circle {
+	width: 100px;
+	height: 100px;
+  border: 7px solid blue;
+	border-radius: 50%;
+	position:fixed;
+
+}
+
+div{
+  margin :50px;
+
+}
+
+.in-line{
+  display:inline-block;
+}

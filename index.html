@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ondragover="dragover(event);">
+<head>
+    <title>Drag and drop</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body >
+  <div class="in-line">
+    <div id="red-square" ondrop="drop(event);" >
+    </div>
+    <div id="red-circle" ondragstart="dragstart(event);" draggable="true">
+    </div>
+  </div>
+  <div class="in-line">
+    <div id="blue-square" ondrop="drop(event);" >
+    </div>
+    <div id="blue-circle" ondragstart="dragstart(event);" draggable="true">
+    </div>
+  </div>
+</body>
+</html>
